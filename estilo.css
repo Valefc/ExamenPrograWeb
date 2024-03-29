@@ -1,0 +1,204 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin:20px;
+    margin-top:20px;
+    margin-left:35px;
+    margin-right:35px;
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+}
+
+.header {
+    background-image: url('Media/3413468.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    text-align: center;
+    padding: 50px;
+  }
+  .overlay-image {
+    position:absolute;
+    top: 40%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 70%;  
+  }
+  
+  .header h1, .header a {
+    position: relative;
+    z-index: 2;
+}
+.right-image {
+    position: absolute;
+    top: 90%;
+    right: 5%;
+    transform: translate(0, -50%);
+    z-index: 1;
+    width: 300px; 
+    height: auto; 
+  }
+
+  #nosotros1,#logros,#extra{
+    text-align:center;
+    color: #1a1386;
+    background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    background-color: black;
+    background-image: linear-gradient( 179deg,  rgba(0,0,0,1) 9.2%, rgba(127,16,16,1) 103.9% );
+    color: #fff;
+    padding: 10px 20px;
+}
+ 
+.nav-links{
+    display:flex;
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    align-items: right;
+}
+.nav-links2{
+    display: flex;
+    list-style:circle;
+    padding: 0;
+    margin: 0;
+    align-items:end;
+}
+.nav-links li{
+    margin-right: 20px;
+}
+ 
+.nav-links li a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav-links li{
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 12px;
+}
+.container1{
+    width: 100%; 
+    padding: auto;
+    margin-bottom: 0px;
+    padding: 2px;
+    border: 2px solid #76d1e1dc; 
+    box-shadow: 1px 1px 10px rgba(255,255,255, 1);
+    padding-left: 2px;
+    text-align: center;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+    margin-top: 10px; 
+    padding: 10px;  
+    color:white;
+}
+
+.image {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+
+.image .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(41, 158, 241, 0.858);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.image h2{
+    color:beige;
+    background-color: rgba(104, 228, 201, 0.662);
+    text-align: center;
+}
+
+.image:hover .overlay {
+    opacity: 1;
+}
+
+.image:hover img {
+    transform: scale(1.1);
+}
+.contenido_c{
+    color: azure;
+    background-color: rgba(222, 176, 176, 0.299);
+    text-align: justify;
+    padding: 8px;
+    column-count: 2; 
+    column-gap: 20px; 
+  }
+  
+  .contenido_c div {
+    margin-bottom: 10px; 
+  }
+
+.contenido_c2{
+    color: azure;
+    background-color: rgba(222, 176, 176, 0.299);
+    text-align: justify;
+    padding: 8px;
+  }
+  .seccion-dos-columnas {
+    display: flex;
+}
+
+.columna {
+    flex: 1; 
+    padding: 20px; 
+    text-align: center;
+    border: 2.5px solid #74bdcabd; 
+    box-shadow: 1px 1px 10px rgba(255,255,255, 1);
+}
+.imagen-chiquita {
+    max-width: 100%; 
+    max-height: 300px; 
+    margin: auto; 
+}
+.imagen-chiquita2 {
+    max-width: 100%; 
+    max-height: 200px; 
+    margin: auto; 
+}
+
+.seccion-cuatro-columnas {
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+.columna {
+    flex: 1; 
+    padding: 20px; 
+    text-align: center;
+    border: 2.5px solid #74bdcabd; 
+    box-shadow: 1px 1px 10px rgba(255,255,255, 1);
+    text-align: center;
+}
